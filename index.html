@@ -257,134 +257,70 @@
 
     <div class="columns is-centered">
 
-      <!-- KUNKUN. -->
+      <!-- Kunkun. -->
       <div class="column">
-        <h2 class="title is-3">Target video</h2>
+        <div class="content">
+          <h2 class="title is-3">Orignal target</h2>
           <p>
-            Original target video.
+            Target video.
           </p>
-        <div class="columns is-centered">
-          <div class="column content">
           <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/test1.mp4"
                     type="video/mp4">
           </video>
-          </div>
-        </div>
-        
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Experiment with high facial movement</h2>
-          <p>
-            No face enhancement, --similar face distance = 1.5
-          </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/output4.mp4"
-                    type="video/mp4">
-          </video>
         </div>
       </div>
-        
+      
+      <div class="column">
+        <h2 class="title is-3">Experiment result with large facial movements</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+              No face enhancement, --similar-face-distance = 1.5.
+            </p>
+            <video id="matting-video" controls playsinline height="100%">
+              <source src="./static/videos/output4.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+
+        </div>
       </div>
     </div>
 
 
-
-
-          <!--/ Weiheng. -->
-    <div class="columns is-centered">
-      <div class="column">
-        <h2 class="title is-3">Target video</h2>
-          <p>
-            Original target video.
-          </p>
         <div class="columns is-centered">
-          <div class="column content">
+
+      <!-- Weiheng -->
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-3">Orignal target</h2>
+          <p>
+            Target video.
+          </p>
           <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/test.mp4"
                     type="video/mp4">
           </video>
-          </div>
-        </div>
-        
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Experiment with hat</h2>
-          <p>
-            No face enhancement, --similar face distance = 1.5
-          </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/output5.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
         </div>
       </div>
-    <!--/ Matting. -->
-
-    <!-- Animation. -->
-<!--    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
-
-        <!-- Interpolating. -->
-<!--        <h3 class="title is-4">Interpolating states</h3>
-        <div class="content has-text-justified">
-          <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
-          </p>
-        </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
+      
+      <div class="column">
+        <h2 class="title is-3">Experiment result with hat</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+              No face enhancement, --similar-face-distance = 1.5.
+            </p>
+            <video id="matting-video" controls playsinline height="100%">
+              <source src="./static/videos/output5.mp4"
+                      type="video/mp4">
+            </video>
           </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
-          </div>
-        </div>
-        <br/>
-        <!--/ Interpolating. -->
 
-        <!-- Re-rendering. -->
-<!--        <h3 class="title is-4">Re-rendering the input video</h3>
-        <div class="content has-text-justified">
-          <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
         </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <!--/ Re-rendering. -->
-
-      <!--</div>
-    </div>-->
-    <!--/ Animation. -->
+      </div>
+    </div>
 
 
     <!-- Concurrent Work. -->
