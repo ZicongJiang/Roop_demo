@@ -187,10 +187,59 @@
           </div>
 
         </div>
+      </div>    
+    </div>
+
+
+<div class="columns is-centered">
+      <!-- Low Light. -->
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-3">Source facial Image</h2>
+                <img src="./static/images/face4.jpg" height="256" width="256"
+                 class="interpolation-image"
+                 alt="Interpolate start reference image."/>
+        </div>
       </div>
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-3">Target video</h2>
+          <video id="dollyzoom" autoplay controls muted loop playsinline height="256" width="256">
+            <source src="./static/videos/test3.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+
+  <div class="columns is-centered">
+
+      <!-- Low Light -->
+      <div class="column">
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+              EXP1:
+              No face enhancement, similar-face-distance=1.5.
+            </p>
+            <video id="matting-video" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/output8.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+
+        </div>
+      </div>
+  
+    </div>
+
+
+
+
+
+
 
     
-    </div>
 
 
     <!-- Concurrent Work. -->
