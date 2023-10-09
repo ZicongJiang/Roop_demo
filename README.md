@@ -1,6 +1,6 @@
 # Roop
 
-This is the repository that contains source code for the [Roop website]([https://zicongjiang.github.io/Roop_demo/])
+This is the repository that contains source code for the [Roop website](https://zicongjiang.github.io/Roop_demo/)
 
 If you find Nerfies useful for your work please cite:
 
